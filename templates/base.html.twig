@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <link href="all.css" rel="stylesheet">
+
+    <script src="fontawesome/js/fontawesome.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap" rel="stylesheet">{% endblock %}
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar">
+  <img class="img_home" src="https://cdn.discordapp.com/attachments/686919404985909284/737292397356253184/Logo_blanc_v2_mini.png">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-item nav-link categories" href="{{ path('home') }}">Home</a>
+      <a class="nav-item nav-link categories" href="{{ path('galleries') }}">Galleries</a>
+      <a class="nav-item nav-link categories" href="{{ path('social') }}">Social Networks</a>
+      <a class="nav-item nav-link categories" href="{{ path('contact') }}">Contact</a>
+      <a class="nav-item nav-link categories" href="{{ path('global') }}">Global Channel</a>
+      <div class="navbar-nav ml-auto">
+      {% if app.user %}
+        <a class="nav-link active categories" href="{{ path ('app_logout') }}"><span style="text-decoration:underline;">Sign out {{ app.user.name }}</span></a>
+       {% else %} 
+       <a class="nav-item nav-link categories" href="{{ path('app_register') }}">Register</a>
+       <a class="nav-link active categories" href="{{ path ('app_login') }}">Sign in </a>
+    {% endif %}
+    </div>
+    </div>
+  </div>
+</nav>
+        {% block body %}{% endblock %}
+          <div class="footer">
+
+    <div class="cat_footer">
+        <a class="footer-item footer-link categories_foot" href="{{ path('home') }}">Home</a>
+        <a class="footer-item footer-link categories_foot" href="{{ path('galleries') }}">Galleries</a>
+        <a class="footer-item footer-link categories_foot" href="{{ path('contact') }}">Contact</a>
+        <a class="footer-item footer-link categories_foot" href="#">Discord</a>
+    </div>
+
+    <hr style="height: 3px; background-color:#CCFF00; width: 40%; border:none; margin-top: 2%; text-align:center;">
+
+    <img class="img_footer" src="https://cdn.discordapp.com/attachments/686919404985909284/737292397356253184/Logo_blanc_v2_mini.png">
+    
+    <div class="icon-fa">
+    <a style="color:#CCFF00;" title="Back To Top" href="#"><i class="fas fa-arrow-circle-up"></i></a> 
+    </div>
+
+  </div>
+        {% block javascripts %}{% endblock %}
+
+        
+          
+        
+
+    </body>
+</html>

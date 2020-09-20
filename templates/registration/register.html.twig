@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Register{% endblock %}
+
+{% block body %}
+    {% for flashError in app.flashes('verify_email_error') %}
+        <div class="alert alert-danger" role="alert">{{ flashError }}</div>
+    {% endfor %}
+
+    <p class="title_contact">Register</p>
+
+     <div class="header_home_register">
+
+<div class="contact-clean">
+    {{ form_start(registrationForm) }}
+
+
+    <p style="color:#FFFFFF;">You are close to become a member of the family !</p>
+
+    <hr style="height: 1px; background-color:#CCFF00; width: 100%; border:none;; text-align:center;">
+
+        <div class="form-group" style="color:#CCFF00; text-align:left;">{{ form_row(registrationForm.email, {'attr': {'class': 'form-control', ' style ': 'color:#000000;',}}) }}</div>
+        <div class="form-group" style="color:#CCFF00; text-align:left;">{{ form_row(registrationForm.plainPassword, {'attr': {'class': 'form-control'}}, {
+            label: 'Password'
+        }) }}</div>
+        <div class="form-group" style="color:#CCFF00; text-align:left;">{{ form_row(registrationForm.name, {'attr': {'class': 'form-control'}}) }}</div>
+        <div class="form-group" style="color:#CCFF00; text-align:left;">{{ form_row(registrationForm.country, {'attr': {'class': 'form-control'}}) }}</div>
+        <div class="form-group"><button type="submit" class="btn btn-primary send">Register</button></div>
+    {{ form_end(registrationForm) }}
+
+    </div>
+
+    </div>
+{% endblock %}

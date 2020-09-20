@@ -1,0 +1,639 @@
+body {
+  background-color: #000000;
+}
+
+::selection {
+  color: #000000;
+  background-color: #CCFF00;
+}
+
+
+.navbar {
+  font-family: 'Varela Round', sans-serif !important;
+  background-color: #000000 !important;
+  box-shadow: 20px 0px 50px 20px #000000;
+}
+
+.img_home {
+  width: 8%;
+}
+
+.logo {
+  background-color: #FFFFFF !important;
+}
+
+.categories {
+  color: #FFFFFF !important;
+  font-size: 20px !important;
+}
+
+.categories:hover {
+  color: #CCFF00 !important;
+}
+
+.categories:focus {
+  color: #CCFF00 !important;
+}
+
+.header_home {
+  background-image: url("../../img/B&W_2\(2\).jpg");
+  color: #FFFFFF;
+}
+
+.title_home {
+  text-align: center;
+  margin: auto;
+  font-family: 'Pacifico', cursive;
+  font-size: 100px;
+}
+
+.header_home2 {
+  background-image: url("../../img/B&W_1\(2\).jpg");
+  color: #CCFF00;
+}
+
+.title_home2 {
+  text-align: left;
+  margin: auto;
+  font-family: 'Pacifico', cursive;
+  font-size: 70px;
+  text-align: center;
+}
+
+.txt_home {
+  margin: auto;
+  color: #FFFFFF;
+  font-family: 'Varela Round', sans-serif;
+  margin-top: 30%;
+  margin-left: 5%;
+  font-size: 25px;
+  text-align: left;
+}
+
+.txt_home2 {
+  margin: auto;
+  color: #FFFFFF;
+  font-family: 'Varela Round', sans-serif;
+  margin-top: 20%;
+  margin-left: 5%;
+  font-size: 25px;
+  text-align: left;
+}
+
+.btn_home_1 {
+  background-color: Transparent;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 80%;
+  margin-bottom: 2%;
+  border-radius: 50px 0 50px 0;
+  border: 3px solid #FFFFFF;
+}
+
+.btn_home_1:hover {
+  border: 3px solid #CCFF00 !important;
+}
+
+.separator1 {
+  width: 100%;
+  height: 70px;
+  background-color: #000000;
+}
+
+.img_homex3 {
+  height: 20%;
+  width: 20%;
+  border: 5px solid #CCFF00;
+  border-collapse: 50px;
+
+
+}
+
+.img_x3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+.footer {
+  text-align: center;
+  font-family: 'Varela Round', sans-serif !important;
+  background-color: #000000 !important;
+}
+
+.categories_foot {
+  color: #FFFFFF !important;
+  font-size: 20px !important;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.categories_foot:hover {
+  color: #CCFF00 !important;
+}
+
+.categories_foot:focus {
+  color: #CCFF00 !important;
+}
+
+.categories_foot:active {
+  color: #CCFF00 !important;
+}
+
+.cat_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.img_footer {
+  width: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.icon-fa {
+  font-size: 300%;
+  transition: 0.5sec;
+}
+
+
+/**=============================================================================================
+================================================================================================
+CONTACT
+================================================================================================
+=============================================================================================**/
+
+.title_contact {
+  color: #CCFF00;
+  background-color: #000000;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 70px;
+}
+
+.header_home3 {
+  background-image: url("../../img/B&W_3\(2\).jpg");
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif !important;
+}
+
+.header_home_register {
+  background-image: url("../../img/ScreenShots/uFo _error(00'44''79)ScreenShot04.jpg");
+  height: 800px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif !important;
+}
+
+/**=============================================================================================
+================================================================================================
+SOCIAL
+================================================================================================
+=============================================================================================**/
+
+.header_home4 {
+  background-image: url("../../img/B&W_6.jpg");
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif !important;
+}
+
+.title_social {
+  color: #FFFFFF;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 70px;
+}
+
+.title_social2 {
+  background-color: #CCFF00 !important;
+  color: #363636;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 70px;
+  margin-top: 5%;
+  margin-bottom: 0%;
+}
+
+.social_name {
+  color: #FFFFFF !important;
+  font-family: 'Varela Round', sans-serif !important;
+  font-size: 50px;
+}
+
+.icon-fa2 {
+  font-size: 500%;
+  transition: 0.5sec;
+}
+
+.iconcross {
+  padding: 5%;
+  color: #CCFF00;
+  background-color: #000000;
+}
+
+.liens_:hover {
+  font-style: italic !important;
+}
+
+.fluo1 {
+  background-color: #CCFF00;
+  height: 120px;
+}
+
+.fluo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #363636;
+  font-family: 'Varela Round', sans-serif !important;
+  font-size: 20px;
+}
+
+
+
+/**=============================================================================================
+================================================================================================
+BOOTSTRAP
+================================================================================================
+=============================================================================================**/
+
+
+
+.contact-clean {
+  padding: 80px 0;
+}
+
+@media (max-width:767px) {
+  .contact-clean {
+    padding: 20px 0;
+  }
+}
+
+.contact-clean form {
+  border-color: #CCFF00 !important;
+  background: rgba(000, 000, 000, 0.5);
+  max-width: 480px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:767px) {
+  .contact-clean form {
+    padding: 30px;
+  }
+}
+
+.contact-clean h2 {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 36px;
+  color: inherit;
+}
+
+.contact-clean .form-group:last-child {
+  margin-bottom: 5px;
+}
+
+.contact-clean form .form-control {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+  outline: none;
+  color: inherit;
+  padding-left: 12px;
+  height: 42px;
+}
+
+.contact-clean form .form-control:focus {
+  border: 1px solid #b2b2b2;
+}
+
+.contact-clean form textarea.form-control {
+  min-height: 100px;
+  max-height: 260px;
+  padding-top: 10px;
+  resize: vertical;
+}
+
+.contact-clean form .btn {
+  padding: 16px 32px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  outline: none !important;
+}
+
+.contact-clean form .btn:hover {
+  opacity: 1;
+}
+
+.contact-clean form .btn:active {
+  transform: translateY(1px);
+}
+
+.send {
+  font-size: 20px !important;
+  font-family: 'Pacifico', cursive !important;
+  background-color: transparent !important;
+  border-radius: 50px 0 50px 0 !important;
+  border: 3px solid #FFFFFF !important;
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
+  width: 100% !important;
+}
+
+.send:hover {
+  border: 3px solid #CCFF00 !important;
+}
+
+
+
+/**=============================================================================================
+================================================================================================
+GALLERIES
+================================================================================================
+=============================================================================================**/
+
+.header_galleries1 {
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif !important;
+}
+
+.title_galleries {
+  color: #FFFFFF;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 70px;
+}
+
+.imggall {
+  height: 20%;
+}
+
+.separator2 {
+  margin-top: 10%;
+  width: 100%;
+  height: 150px;
+  background-color: #000000;
+}
+
+.creation_category {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Varela Round', sans-serif !important;
+  height: 450px;
+  padding-top: 5%;
+
+}
+
+.title_cat {
+  margin: 2%;
+  margin-top: 0%;
+}
+
+.liste_cat {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.structure_cat {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+
+/**=============================================================================================
+================================================================================================
+MY SPACE
+================================================================================================
+=============================================================================================**/
+
+
+
+.bg_space {
+  background-color: #000000;
+}
+
+.title_space1 {
+  color: #CCFF00;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 30px;
+}
+
+.title_space2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  background-color: #CCFF00;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 30px;
+  height: 80px;
+}
+
+
+
+
+/**=============================================================================================
+================================================================================================
+HOME 2
+================================================================================================
+=============================================================================================**/
+
+
+
+.header_accueil {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+}
+
+.title_acc {
+  color: #FFFFFF;
+  font-size: 50px;
+}
+
+.parallax {
+  background-image: url("../../img/B&WyELL.jpg");
+  height: 250px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title_news {
+  font-size: 80px;
+}
+
+.news {
+  height: 500px;
+  width: 30%;
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: left;
+}
+
+.photo {
+  width: 100%;
+
+}
+
+.news_glob {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around !important;
+}
+
+.slider {
+  width: 70% !important;
+}
+
+.nom_creation_blog {
+  margin-top: 20%;
+}
+
+.sep_black {
+  margin: 3%;
+  color: #FFFFFF;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 50px;
+  height: 100px;
+  background-color: #000000;
+}
+
+.btn_forum {
+  background-color: Transparent;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 2%;
+  border-radius: 50px 0 50px 0;
+  border: 3px solid #FFFFFF;
+
+}
+
+.btn_forum:hover {
+  border: 3px solid #CCFF00 !important;
+  background-color: black !important;
+
+}
+
+.write {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+.chat_space {
+  color: #ffffff;
+  background-color: #000000;
+  font-family: 'Varela Round', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+  width: 80%;
+  text-align: left;
+}
+
+.sendmess {
+  color: #FFFFFF;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 50px;
+  margin: 3%;
+}
+
+.messages {
+  color: #FFFFFF;
+  background: #000000;
+  text-decoration: none;
+  border: 3px solid #FFFFFF;
+  width: 90%;
+  margin: 3%;
+  font-size: 20px;
+  height: 250px;
+
+}
+
+.btn_forum2 {
+  color: #FFFFFF;
+  background-color: Transparent;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 3%;
+  border-radius: 50px 0 50px 0;
+  border: 3px solid #FFFFFF;
+}
+
+.btn_forum2:hover {
+  border: 3px solid #CCFF00 !important;
+}
+
+
+.modal-header {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+}
+
+.modal-footer {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+}
+
+.btn-primary {
+  font-family: 'Varela Round',
+    sans-serif !important;
+  color: #000000 !important;
+  background-color: #CCFF00 !important;
+  border: 3px solid #000000 !important;
+}
+
+.btn-secondary {
+  font-family: 'Varela Round',
+    sans-serif !important;
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  border: 3px solid #000000 !important;
+}
